@@ -38,7 +38,7 @@ nav ul li{
 
 #profile{
 
-	padding-top: 3%;
+
 	padding-bottom: 3%;
 	width:100%;
 	background-color: #f6f6f6;
@@ -109,9 +109,9 @@ margin-left: 3%;
 
 
 #profileimage{
-margin-top: 3%;
+margin-top: 8%;
 width: 30%;
-min-width: 450px;
+min-width: 400px;
 
 float: left;
 
