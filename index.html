@@ -9,15 +9,27 @@
 <body>
 <div id="wrapper">
 
-<div id="banner">
+<div id="banner"> 
+
 <h1 class="logo" id = "icon"> <i> George Lloyd-Anderson</i> </h1>
+
+<img id = "toggle" onclick="hideshow()" src="toggle.png" style="width:50px;" />
+
+
 </div>
 
-<nav>
 
-<ul>
+
+
+<nav >
+
+<ul id ="nav">
 <li> Projects </li><li> Contact </li><li> Volunteering </li>
 </ul>
+
+
+
+
 
 </nav>
 
@@ -34,11 +46,15 @@
 
 <div id ="profile">
 
-  <div id ="WelcomeText" >
+
+<div id ="WelcomeText" >
+<div id ="leftheader">
+
+
   <h2 class="heading"> Computer Science Graduate!</h2> </br>
   <h3 class="subheading"> <b> Class of 2020 Leeds Beckett </b></h3>
-  <p id="skills">
 
+</br>
 	<ul id ="skillslist">
 		<li>Android App Developer</li>
 		<li>Java Developer</li>
@@ -47,17 +63,30 @@
 
 	</ul>
 
+	<br>
 	<form>
 
-		<input id="cvbutton" type="button" value="Download CV"/>
+		<input id="cvbutton" type="button" value="View CV"/>
 
 	</form>
 
 
-  </p>
-</div>
-  <img src="Photo.png" id="profileimage" />
+ 
+
+
+  
 </div> 
+  <div id = "rightheader">
+
+<img src="Photo.png" id="profileimage" />
+
+  </div>
+
+</div> <!-- end -->
+
+
+</div>
+
 
 <!-- End of Personal Profile Area -->
 
@@ -70,7 +99,7 @@
 
 			<div class ="minibox java" > Java </div>
 
-			<img class ="boximage" src="shop.jpg" />
+			<img class ="boximage" src="shop4.jpg" />
 			<p  class ="boxtext">Custom IDE and Shape Drawing</p>
 			
 
@@ -81,7 +110,7 @@
 
 			<div class ="minibox android" > Android </div>
 
-			<img class ="boximage" src="shop.jpg" />
+			<img class ="boximage" src="shop3.png" />
 			<p  class ="boxtext">Eating Disorder Treatment</p>
 			
 
@@ -102,7 +131,7 @@
 
 			<div class ="minibox android" > Android </div>
 
-			<img class ="boximage" src="shop.jpg" />
+			<img class ="boximage" src="shop1.jpg" />
 			<p class ="boxtext" >Dog Fitness Tracker</p>
 			
 
@@ -116,21 +145,56 @@
 
 
 	</div>
-
-
-
-
-
-
-
-
 </div> 
 <!-- End of Experience Area -->
+
+<div id ="aboutholder">
+<h2 class="subheading " id="aboutheading"> About Me</br> </h2>
+<div id ="about">
+
+
+
+
+<p class ="abouttext"> 
+	Computer Science Masters Graduate, Specialising in Android and Java development. Passionate about technology and charity,
+	 with over 500 hours volunteered and winner of Student Fundraising of the Year 2019 at the National Student Fundraising Awards. 
+	 Looking to improve my knowledge of design and development and create products that help others.
+
+
+
+</p>
+<img id ="aboutimage" src = "profilepic.jpg" />
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
 
 
 </div> <!-- End of Wrapper Div-->
 
+<footer>
 
+Copyright 2020 George Lloyd-Anderson
+
+
+<div id = "social">
+
+<img src="instagram.png" class = "headerimage" />
+<img src="linkedin.png"  class = "headerimage linkedin" />
+
+</div>
+
+
+</footer>
 
 
 
@@ -139,5 +203,36 @@
 </body>
 
 
+<script>
 
+var hidden = 0;
+var x = document.getElementById("nav");
+var y = document.getElementById("toggle");
+
+function hideshow () {
+
+if(x.style.display === "none"){
+
+
+x.style.display ="block";
+
+}else{
+
+	x.style.display ="none";
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+</script>
 </html>
