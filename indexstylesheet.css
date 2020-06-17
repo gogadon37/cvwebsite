@@ -187,10 +187,10 @@ margin-right: 6%;
 #profileimage{
 margin-top: 60px;
 width: 80%;
+margin-left: 10%;
 
-min-width: 350px;
 
-float: right;
+float: left;
 
 
 }
@@ -230,6 +230,7 @@ background-color: #428F92;
 color:white;
 margin-left: 6%;
 margin-top: 5%;
+margin-bottom: 10%;
 
 
 }
@@ -260,7 +261,7 @@ margin-top: 5%;
 		color: #575757;
 		float:left;
 		padding: 20px;
-		margin-left: 2%;
+		margin-left: 10px;
 		width: 50%;
 	   
 	   }
@@ -268,8 +269,8 @@ margin-top: 5%;
 
 	   nav{
 
-		padding-top: 20px;
-		padding-bottom: 20px;
+		padding-top: 5px;
+		padding-bottom: 5px;
 		background-color: #428F92;
 		color:white;
 		margin-top: 0.5%;
@@ -402,16 +403,25 @@ margin: 40px auto;
 
 @media only screen and (min-width: 1280px){
 
+
+.white{
+
+margin-bottom: 5%;
+
+
+}
+
+
 .box:hover{
 
-margin: 4%;
+background: #ddedff;
 
 }
 
 .box{
 
-	margin: 5%;
-	width: 90%;
+	margin: 5% !important;
+	width: 90% !important;
     float: left;
     background: white;
     border-radius: 20px;
@@ -464,8 +474,9 @@ margin: 4%;
 
 .box{
 
-	margin: 5%;
-	width: 90%;
+	margin-left: 20%;
+	margin-bottom: 10%;
+	width: 60%;
     float: left;
     background: white;
     border-radius: 20px;
@@ -474,9 +485,11 @@ margin: 4%;
 
 .boximage{
 
-	width: 80%;
-	margin: 10%;
-	
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 15%;
+	margin-bottom: 15%;
+	margin-right: 30%;
 	
 	}
 
