@@ -1,10 +1,12 @@
+
+/* set the default font-family to calibri*/
+
 *{
-
 	font-family: Calibri;
-
-
 }
 
+
+/* Set the default background color */
 
 body{
 
@@ -12,696 +14,280 @@ body{
 }
 
 
+ /*////////////////////////////////////////////////////////////////////*/
+ /*                              BANNER                                */
+ /*////////////////////////////////////////////////////////////////////*/
 
+/* The banner wrapper contains the Icon and the navigation menu inside */
 
 #banner{
-
 width: 100%;
 display:grid;
+background: white;
 grid-template-rows: 1fr;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
 padding-top: 25px;
 padding-bottom: 25px;
-
 }
 
+		#icon {
+		margin-left: 2%;
+		font-size: 60px;
+		grid-column: 1 / span 5 ;
+		color: #575757;
+		float:left;
+		padding: 1%;
+		width: 97%;
+		}
+
+		#toggle{
+		margin: auto;
+		}
+
+		nav{
+			width: 100%;
+			margin-top: 0.5%;
+			background-color: #428F92;
+			float:left;
+		}
+
+		nav ul li{
+			color:white;
+			padding-left: 2%;
+			width: 98%;
+			font-size: 45px;
+			border-bottom: 1px  solid white;
+			display: block;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+
+ /*  End of Banner Wrapper*/
 
 
+ /*////////////////////////////////////////////////////////////*/
+ /*                       PROFILE                              */
+ /*////////////////////////////////////////////////////////////*/
 
-#icon {
-margin-left: 2%;
- font-size: 60px;
- grid-column: 1 / span 5 ;
- color: #575757;
- float:left;
- padding: 1%;
- width: 97%;
-
-
-}
-
-
-#toggle{
-
-
-margin: auto;
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-nav{
-	
-	width: 100%;
-	margin-top: 0.5%;
-	background-color: #428F92;
-	
-
-
-	float:left;
-}
-
-nav ul li{
-
-	color:white;
-	padding-left: 2%;
-	width: 98%;
-	font-size: 45px;
-	border-bottom: 1px  solid white;
-	display: block;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	
-}
-
-
-
-
+ /* Profile wrapper contains the Heading, SubHeading and list */
 
 #profile{
-
-
 	padding-bottom: 3%;
 	width:100%;
 	background-color: #f6f6f6;
 	float: left;
-
 }
 
-#WelcomeText{
-	margin-top: 40px;
-
-width: 100%;
-float: left;
-display: grid;
-grid-template-rows: 1fr;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
-
-
-
-}
-
-
-
-#leftheader{
-
-	grid-column: 1 / span 5 ;
-
-
-}
-
-#rightheader{
-	grid-column: 1/ span 5 ;
-
-
-}
-
-
-
-
-
-
-
-.heading{
-margin-top: 40px;
-font-size: 72px;
-color: #575757;
-margin-left: 6%;
-}
-
-.subheading{
-	margin-top: 10px;
-font-size: 40px;
-color: #428F92;
-margin-left: 6%;
-
-
-}
-
-
-
-#skillslist{
-
-list-style-image:  url('icon.png');
-margin-left: 8%;
-font-size: 25px;
-
-}
-
-
-#cvbutton{
-
-padding-left: 3%;
-padding-right: 3%;
-text-decoration: none;
-border: none;
-font-size: 30px;
-width: 88%;
-padding-top: 20px;
-padding-bottom: 20px;
-border-radius: 10px;
-color: #ffffff;
-background-color: #428F92;
-margin-bottom: 1%;
-margin-top: 5%;
-margin-left: 6%;
-margin-right: 6%;
-
-
-}
-
-
-#profileimage{
-margin-top: 60px;
-width: 80%;
-margin-left: 10%;
-
-
-float: left;
-
-
-}
-
-
-.boxtext{
-
-text-align: center;
-
-font-weight: bold;
-color: #575757;
-padding: 10px;
-
-}
-
-
-
-
-
-
-
-
-#projects{
-
-float:left;
-
-width: 100%;
-padding-bottom: 3%;
-background-color: #428F92;
-
-
-}
-
-
-.white{
-	font-size: 40px;
-color:white;
-margin-left: 6%;
-margin-top: 5%;
-margin-bottom: 10%;
-
-
-}
-
-@media only screen and (min-width: 1280px){
-
-   #banner{
-
-	padding-top: 10px !important;
-	padding-bottom: 10px !important;
-
-   }
-
-
-	#toggle{
-
-
-		display: none;
-		
-		
-		}
-		
-
-
-	#icon {
-
-		font-size: 30px;
-		color: #575757;
-		float:left;
-		padding: 20px;
-		margin-left: 10px;
-		width: 50%;
-	   
-	   }
-
-
-	   nav{
-
-		padding-top: 5px;
-		padding-bottom: 5px;
-		background-color: #428F92;
-		color:white;
-		margin-top: 0.5%;
-		float:left;
-	}
-	
-	nav ul li{
-	
-		font-size: 20px;
-		display: inline;
-		margin-left: 5x;
-		margin-right: 5px;
-	}
-	
-	
-
-
-
-
-
-	#WelcomeText{
-		margin-top: 40px;
-	
-	width: 100%;
-	float: left;
-	display: grid;
-	grid-template-rows: 1fr;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	
-	
-	
-	
-	}
-	
-	
-	
-	#leftheader{
-	
-		grid-column: 1 / span 3 !important;
-	
-	
-	}
-	
-	#rightheader{
-		grid-column: 4/ span 2 !important;
-	
-	
-	}
-	
-
-	#cvbutton{
-
-		padding-left: 3%;
-		padding-right: 3%;
-		text-decoration: none;
-		border: none;
-		font-size: 30px;
-		width: 40% !important;
-		padding-top: 5px !important;
-		padding-bottom: 5px !important;
-		border-radius: 10px;
-		color: #ffffff;
-		background-color: #428F92;
-		margin-bottom: 1%;
-		margin-top: 40px;
-		margin-left: 6%;
-		margin-right: 6%;
-		
-		
-		}
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-#boxholder{
-
-margin: 40px auto;
-
-
-
-width: 92%;
-
-padding-left: 4%;
-padding-right: 4%;
-
-grid-template-rows: 1fr;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-display:grid;
-
-
-}
-
-}
-
-
-
-
-
-
-
-
-#boxholder{
-
-margin: 40px auto;
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-@media only screen and (min-width: 1280px){
-
-
-.white{
-
-margin-bottom: 5%;
-
-
-}
-
-
-.box:hover{
-
-background: #ddedff;
-
-}
-
-.box{
-
-	margin: 5% !important;
-	width: 90% !important;
-    float: left;
-    background: white;
-    border-radius: 20px;
-
-}
-
-
-.boximage{
-
-	width: 60% !important;
-	margin: 20% !important;
-	
-	
-	}
-
-
-
-
-	.minibox{
-
-		background: green;
-		border-radius: 10px;
-		float: right;
-		width: 50% !important;
-		padding: 5px !important;
-		color: #FFFFFF;
-		text-align: center;
-		font-size: 25px;
-		margin:5%;
-		text-transform: uppercase;
-		font-weight: bold;
-		
-		
-		
-		
-		}
-
-
-
-		.boxtext{
-
-			padding: 20px;
-			font-size: 20px !important;
-			margin-bottom:5%;
+			/* WeclomeText Container, contains a left and right containers */
+
+			#WelcomeText{
+			margin-top: 40px;
+			width: 100%;
+			float: left;
+			display: grid;
+			grid-template-rows: 1fr;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 			}
 
-}
+			#leftheader{
+				grid-column: 1 / span 5 ;
+			}
+
+					.heading{
+					margin-top: 40px;
+					font-size: 72px;
+					color: #575757;
+					margin-left: 6%;
+					}
+
+					.subheading{
+						margin-top: 10px;
+					font-size: 40px;
+					color: #428F92;
+					margin-left: 6%;
+					}
+
+					#skillslist{
+					list-style-image:  url('icon.png');
+					margin-left: 8%;
+					font-size: 25px;
+					}
+
+
+					#cvbutton{
+					padding-left: 3%;
+					padding-right: 3%;
+					text-decoration: none;
+					border: none;
+					font-size: 30px;
+					width: 88%;
+					padding-top: 20px;
+					padding-bottom: 20px;
+					border-radius: 10px;
+					color: #ffffff;
+					background-color: #428F92;
+					margin-bottom: 1%;
+					margin-top: 5%;
+					margin-left: 6%;
+					margin-right: 6%;
+					}
 
 
 
-.box{
+			#rightheader{
+				grid-column: 1/ span 5 ;
+			}
+					#profileimage{
+					margin-top: 60px;
+					width: 80%;
+					margin-left: 10%;
+					float: left;
+					}
 
-	margin-left: 20%;
+
+
+ /*////////////////////////////////////////////////////////////*/
+ /*                       PROJECTS AREA                        */
+ /*////////////////////////////////////////////////////////////*/
+
+ .white{
+	font-size: 40px;
+	color:white;
+	margin-left: 6%;
+	margin-top: 5%;
 	margin-bottom: 10%;
-	width: 60%;
-    float: left;
-    background: white;
-    border-radius: 20px;
-
-}
-
-.boximage{
-
-	width: 40%;
-	margin-left: 30%;
-	margin-top: 15%;
-	margin-bottom: 15%;
-	margin-right: 30%;
-	
 	}
+	
+ /* Projects holds a box container with several box items inside,
+  4 boxes can fit on screen width with any more being added 
+  underneath*/
 
-
-
-
-	.minibox{
-
-
-
-		background: green;
-		border-radius: 10px;
-		float: right;
-		width: 30%;
-		padding: 10px;
-		color: #FFFFFF;
-		text-align: center;
-		font-size: 25px;
-		margin:5%;
-		
-		text-transform: uppercase;
-		font-weight: bold;
-		
-		
-		
-		
-		}
-
-
-
-
-
-
-
-
-
-
-
-
-.boxtext{
-
-padding: 20px;
-font-size: 40px;
-margin-bottom:5%;
+ #projects{
+	float:left;
+	width: 100%;
+	padding-bottom: 3%;
+	background-color: #428F92;
 }
 
+			#boxholder{
+				margin: 40px auto;
+				}
+							.box{
+								margin-left: 20%;
+								margin-bottom: 10%;
+								width: 60%;
+								float: left;
+								background: white;
+								border-radius: 20px;
+							}
 
-.android{
+										.boxtext{
+										text-align: center;
+										font-weight: bold;
+										color: #575757;
+										padding: 10px;
+										}
+
+										.boximage{
+										width: 40%;
+										margin-left: 30%;
+										margin-top: 15%;
+										margin-bottom: 15%;
+										margin-right: 30%;
+										}
+
+										.minibox{
+										background: green;
+										border-radius: 10px;
+										float: right;
+										width: 30%;
+										padding: 10px;
+										color: #FFFFFF;
+										text-align: center;
+										font-size: 25px;
+										margin:5%;
+										text-transform: uppercase;
+										font-weight: bold; 
+										}
+
+										.boxtext{
+
+										padding: 20px;
+										font-size: 40px;
+										margin-bottom:5%;
+										}
+
+												.val3{
+
+													background-color: #5c2fda;
+
+												}
+
+												.android{
+												background-color: #42B047;
+												}
+
+												.design{
+													background: #3492B7;
+												}
+
+												.java{
+													background: #FF4B1E;
+												}
+/* End of Projects Section*/
 
 
-background-color: #42B047;
-
-}
-
-
-.design{
-
-
-
-	background: #3492B7;
-
-}
-
-
-
-.java{
-
-	background: #FF4B1E;
-
-
-}
-
-
-
-
-
-
-
+ /*////////////////////////////////////////////////////////////*/
+ /*                         About Section                      */
+ /*////////////////////////////////////////////////////////////*/
 
 #aboutholder{
-
-
-	
-
-	background-color: #f6f6f6;
-	float:left;
-
-}
-
-
-#about{
-
+background-color: #f6f6f6;
 float:left;
-width: 100%;
-grid-template-rows: 1fr;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-display: inline-grid;
-
-
-
-}
-
-
-
-
-@media only screen and (min-width: 1280px){
-
-
-	.abouttext{
-		background-color: #f6f6f6 !important;
-		font-size: 25px !important;
-		grid-column: 1 / span 3 !important;
-
-		margin-left: 10% !important;
-		
-		margin-top: 3% !important;
-	}
-	
-	
-	}
-
-
-
-
-
-		.abouttext{
-			background-color: #f6f6f6;
-			font-size: 25px;
-			grid-column: 1 / span 5;
+}	
+			#aboutheading{
+			margin-top: 6%;
 			margin-left: 6%;
-			margin-right: 6% ;
-			margin-top: 3%;
+			}
+
+			#about{
+			float:left;
+			width: 100%;
+			grid-template-rows: 1fr;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			display: inline-grid;
+			}
+
+					.abouttext{
+					background-color: #f6f6f6;
+					font-size: 25px;
+					grid-column: 1 / span 5;
+					margin-left: 6%;
+					margin-right: 6% ;
+					margin-top: 3%;
+					}
 		
-		}
-		
-		
-
-	
-
-
-@media only screen and (min-width: 1280px){
-
-
-#aboutimage{
-
-width:50% !important;
-border-radius: 300px !important;
-margin-left: 30% !important;
-margin-bottom: 15% !important;
-grid-column: 4 / span 2 !important;
-margin-top: 0% !important;
-}
-
-footer{
-	width: 100%;
-	text-align: center;
-	float: left;
-	font-size: 18px !important;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	background-color: #FFFFFF;
-	font-weight: bold;
-	
-	}
-
-	.headerimage{
-		margin-top: 0% !important;
-		width: 20px !important;
-		margin-left: 5px !important;
-		
-		
-		
-		}
-
-		.linkedin{
-
-			width: 25px !important;
-
-
-		}
-
-
-}
-
-
-
-
-
-
-	#aboutimage{
-	
-	width:50%;
-	border-radius: 300px;
-	margin-left:  40%;
-	margin-bottom: 15%;
-	margin-top: 15%;
-	grid-column: 1 / span 4;
-	
-	
-	
-	}
+					#aboutimage{	
+					width:50%;
+					border-radius: 300px;
+					margin-left:  40%;
+					margin-bottom: 15%;
+					margin-top: 15%;
+					grid-column: 1 / span 4;
+					}
 	
 
 
 
 
+/* End of About Section */
 
-#aboutheading{
-	margin-top: 6%;
-margin-left: 6%;
 
-}
+
+
+ /*////////////////////////////////////////////////////////////*/
+ /*                         Footer Section                     */
+ /*////////////////////////////////////////////////////////////*/
 
 
 footer{
@@ -713,30 +299,158 @@ font-size: 20px;
 padding-bottom: 2%;
 background-color: #FFFFFF;
 font-weight: bold;
-
 }
 
+			.linkedin{
+			width: 35px;
+			}
 
-#social{
+			#social{
+			margin-top: 2%;
+			margin-right: 1%;
+			}
 
-margin-top: 2%;
-margin-right: 1%;
 
+			.footericon{
+			margin-top: 2%;
+			width: 30px;
+			margin-left: 10px;
+			}
+
+
+/* End of Footer Section */
+
+
+/* -------------------- Desktop Design -----------------------------*/
+
+/* When the screen width reaches 1280px the following layout changes
+ take place*/
+
+
+@media only screen and (min-width: 1280px){
+
+
+
+/* BANNER SECTION */
+
+#banner{
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
+			#icon {
+			font-size: 30px;
+			padding: 20px;
+			margin-left: 10px;
+			}
+				
+			#toggle{
+			display: none;
+			}
 
-.headerimage{
-margin-top: 2%;
-width: 30px;
-margin-left: 10px;
+		
+nav{
+padding-top: 5px;
+padding-bottom: 5px;
+margin-top:0px;
+}
+		
+			nav ul li{
+			font-size: 20px;
+			display: inline;	
+			}
+			
+
+/* End of banner section */
+	
+
+/* Profile Section */
+
+		#leftheader{
+			grid-column: 1 / span 3;
+		}
+		
+					#cvbutton{
+				
+						width: 40%;
+						padding-top: 5px ;
+						padding-bottom: 5px ;
+						margin-top: 40px;
+						}
+			
+	
+		#rightheader{
+			grid-column: 4/ span 2;
+		}
+		
+	
+	
+/* End of Profile Section */
 
 
 
+/* Portfolio Section */
+	
+.white{
+	margin-bottom: 5%;
+}
+		
+#boxholder{
+	padding-left: 4%;
+	padding-right: 4%;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	display:grid;
 }
 
-.linkedin{
+			.box{
+				margin: 5%;
+				width: 90%;
+			}
+						.boximage{
+							width: 60% !important;
+							margin: 20% !important;
+						}
+			
+						.boxtext{
+							font-size: 20px;
+							}
 
-width: 35px;
+			.box:hover{
+			background: #ddedff;
+			}
 
+
+
+/* End of Portfolio Section */
+
+/* About Section */
+
+		.abouttext{
+		grid-column: 1 / span 3 ;
+		margin-left: 10% ;
+		}
+			
+
+		
+		#aboutimage{
+		
+		margin-left: 30% ;
+		grid-column: 4 / span 2 ;
+		margin-top: 0% ;
+		}
+	
+		
+/* End of About Section */
+
+/* Footer Section */
+			.footericon{
+				margin-top: 0% ;
+				width: 20px ;
+				margin-left: 5px ;
+				}
+				.linkedin{
+					width: 25px ;		
+				}
 
 }
