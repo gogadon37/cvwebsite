@@ -134,7 +134,7 @@ form{
         
         #project-container{
         float:left;
-        grid-template-rows: 0.3fr 1fr   0.1fr ;
+        grid-template-rows: 0.3fr 0.5fr   0.3fr ;
         grid-template-columns: 0.4fr 1fr 1fr 1fr 1fr 1fr;
         display: grid;
         
@@ -186,7 +186,7 @@ form{
         }
         
         .projecttext{
-        
+        margin: auto;
         
         font-size: 30px;
         grid-column: 1 / span 3 ;
@@ -209,12 +209,12 @@ form{
             padding-right: 3%;
             text-decoration: none;
             border: none;
-            font-size: 30px;
+            font-size: 25px;
             width: 100%;
             padding-top: 5px;
             padding-bottom: 5px;
             border-radius: 10px;
-            
+            margin:auto;
             background-color: #FFFFFF;
          
             
@@ -224,7 +224,7 @@ form{
         form{
         
             grid-column: 1 / span 2 ;
-         
+            height: 100%;
             width: 90%;
         
         }
