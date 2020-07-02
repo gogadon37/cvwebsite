@@ -49,18 +49,51 @@ padding-bottom: 25px;
 			margin-top: 0.5%;
 			background-color: #428F92;
 			float:left;
+			text-decoration: none !important;
 		}
 
 		nav ul li{
 			color:white;
 			padding-left: 2%;
-			width: 98%;
+			padding-right: 2%;
+			
+			width: 96%;
 			font-size: 45px;
 			border-bottom: 1px  solid white;
 			display: block;
 			padding-top: 20px;
 			padding-bottom: 20px;
 		}
+
+
+		a{
+			text-decoration: none;
+		}
+
+
+		li a{
+
+			color:white;
+			text-decoration: none;
+
+		}
+
+		nav ul	li:hover{
+
+		
+			background: #376668;
+			
+
+		}
+
+		li:hover a{
+
+			color:rgb(255, 255, 255);
+		
+
+		}
+
+
 
  /*  End of Banner Wrapper*/
 
@@ -359,6 +392,10 @@ margin-top:0px;
 			font-size: 20px;
 			display: inline;	
 			border-bottom: none;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			padding-top: 5px;
+			padding-bottom: 5px;
 			}
 			
 
